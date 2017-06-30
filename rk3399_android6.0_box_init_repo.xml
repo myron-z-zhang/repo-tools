@@ -1,0 +1,74 @@
+  <project name="rk3399/android6/RKDocs" path="RKDocs" remote="github"/>
+  <project name="rk3399/android6/RKTools" path="RKTools" remote="github"/>
+  <project name="rk3399/android6/device/common" path="device/common" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/bionic" path="bionic" remote="github"/>
+  <project name="rk3399/android6/platform/bootable/recovery" path="bootable/recovery" remote="github"/>
+  <project name="rk3399/android6/platform/build" path="build" remote="github"/>
+  <project name="rk3399/android6/platform/external/busybox" path="external/busybox" remote="github"/>
+  <project name="rk3399/android6/platform/external/e2fsprogs" path="external/e2fsprogs" remote="github"/>
+  <project name="rk3399/android6/platform/external/libselinux" path="external/libselinux" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/external/ppp" path="external/ppp" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/external/rp-pppoe" path="external/rp-pppoe" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/external/sepolicy" path="external/sepolicy" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/external/skia" path="external/skia" groups="pdk,qcom_msm8x26" remote="github"/>
+  <project name="rk3399/android6/platform/external/tinyalsa" path="external/tinyalsa" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/av" path="frameworks/av" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/base" path="frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/ex" path="frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/native" path="frameworks/native" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/opt/net/pppoe" path="frameworks/opt/net/pppoe" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/opt/telephony" path="frameworks/opt/telephony" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="github"/>
+  <project name="rk3399/android6/platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/hardware/libhardware" path="hardware/libhardware" remote="github"/>
+  <project name="rk3399/android6/platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/hardware/ril" path="hardware/ril" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Browser" path="packages/apps/Browser" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Calculator" path="packages/apps/Calculator" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Camera2" path="packages/apps/Camera2" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/DeskClock" path="packages/apps/DeskClock" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Gallery2" path="packages/apps/Gallery2" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Launcher3" path="packages/apps/Launcher3" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Music" path="packages/apps/Music" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Provision" path="packages/apps/Provision" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/Settings" path="packages/apps/Settings" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" groups="pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/packages/services/Telephony" path="packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" remote="github"/>
+  <project name="rk3399/android6/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" remote="github"/>
+  <project name="rk3399/android6/platform/system/bt" path="system/bt" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/system/core" path="system/core" remote="github"/>
+  <project name="rk3399/android6/platform/system/extras" path="system/extras" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/platform/system/vold" path="system/vold" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/rk/device/rockchip/rk3399" path="device/rockchip/rk3399" remote="github"/>
+  <project name="rk3399/android6/rk/device/rockchip/rksdk" path="device/rockchip/common" remote="github">
+  <project name="rk3399/android6/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/liblights" path="hardware/rockchip/liblights" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/librkvpu" path="hardware/rockchip/librkvpu" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/power" path="hardware/rockchip/power" remote="github"/>
+  <project name="rk3399/android6/rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="github"/>
+  <project name="rk3399/android6/rk/platform/external/io" path="external/io" remote="github"/>
+  <project name="rk3399/android6/rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="github"/>
+  <project name="rk3399/android6/rk/platform/external/rk-pcba-test" path="external/rk-pcba-test" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/rk/platform/external/wlan_loader" path="external/wlan_loader" remote="github"/>
+  <project name="rk3399/android6/rk/platform/system/displayd" path="system/displayd" groups="pdk" remote="github"/>
+  <project name="rk3399/android6/rk/platform/vendor/Widevine" path="vendor/widevine" remote="github"/>
+  <project name="rk3399/android6/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="github"/>
+  <project name="rk3399/android6/rk/rkst" path="rkst" remote="github"/>
+  <project name="rk3399/android6/rk/u-boot" path="u-boot" remote="github"/>
+  <project name="rk3399/android6/rk/kernel" path="kernel" remote="github"/>
